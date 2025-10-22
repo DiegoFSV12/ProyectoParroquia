@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+    <img [src]="imgSrc" class="card-img-top">
+    <div class="card-body">
+        <h5 class="card-title" *ngIf="title">{{title}}</h5>
+        <p class="card-text" *ngIf="description">{{description}}</p>
+        <a [href]="link" class="btn btn-primary" *ngIf="link">Más información</a>
+    </div>
+</div>

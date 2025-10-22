@@ -1,0 +1,18 @@
+<div class="card mb-3" style="max-width: 340px;">
+    <div>
+        <div class="icon">
+            <i [class]="iconClass"></i>
+            <h4>{{title}}</h4>
+        </div>
+        <div>
+            <div>
+                <h5 class="card-title">{{days}}</h5>
+                <p class="card-text">{{dates}}</p>
+            </div>
+            <div *ngIf="dates2 && days2">
+                <h5 class="card-title">{{days2}}</h5>
+                <p class="card-text">{{dates2}}</p>
+            </div>
+        </div>
+    </div>
+</div>

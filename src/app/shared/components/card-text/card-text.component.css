@@ -1,0 +1,16 @@
+.icon i{
+    border: 10px solid #FFD2A4;
+    background-color: #FFD2A4;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+}
+
+.card{
+    padding: 20px 80px;
+    text-align: left !important;
+    background-color: #FFF5EB;
+    border-bottom: 20px solid #FFD2A4;
+    margin-top: 10px;
+    margin-left: 40px;
+}
