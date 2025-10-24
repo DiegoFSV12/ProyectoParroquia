@@ -1,55 +1,215 @@
-.faceImage{
-    img{
-        width: 100%;
-        height: 620px;
-        object-fit: cover;
-    }
-}
-
-.news{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-    padding: 35px;
-}
-
-button{
-    background-color: #FFD2A4 !important;
-    border: #f8ba7c !important;
-    color: #000 !important;
-}
-
-.card-list{
+.faceImage {
+  img {
     width: 100%;
-    padding-bottom: 40px;
-    justify-content: center;
+    height: 620px;
+    object-fit: cover;
+  }
 }
 
-.second-card-list{
-    width: 100%;
-    justify-content: center;
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 35px;
 }
 
-@media screen and (min-width:1000px){
-    .card-list app-card:nth-child(2) {
-        transform: translate(0, 20px);
-    }
+
+button {
+  background-color: #FFD2A4 !important;
+  border: #f8ba7c !important;
+  color: #000 !important;
 }
 
-.programs{
-    background-color: #F5F2F0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-    padding: 35px;
+.card-list {
+  width: 100%;
+  padding-bottom: 40px;
+  justify-content: center;
+}
 
-    button{
-        width: 300px;
-    }
+.second-card-list {
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (min-width:1000px) {
+  .card-list app-card:nth-child(2) {
+    transform: translate(0, 20px);
+  }
+}
+
+.programs {
+  background-color: #F5F2F0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 35px;
+
+  button {
+    width: 300px;
+  }
+}
+
+
+/* ⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢰⡿⠋⠁⠀⠀⠈⠉⠙⠻⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⣿⠇⠀⢀⣴⣶⡾⠿⠿⠿⢿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣀⣀⣸⡿⠀⠀⢸⣿⣇⠀⠀⠀⠀⠀⠀⠙⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⣾⡟⠛⣿⡇⠀⠀⢸⣿⣿⣷⣤⣤⣤⣤⣶⣶⣿⠇⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀
+⢀⣿⠀⢀⣿⡇⠀⠀⠀⠻⢿⣿⣿⣿⣿⣿⠿⣿⡏⠀⠀⠀⠀⢴⣶⣶⣿⣿⣿⣆
+⢸⣿⠀⢸⣿⡇⠀⠀⠀⠀⠀⠈⠉⠁⠀⠀⠀⣿⡇⣀⣠⣴⣾⣮⣝⠿⠿⠿⣻⡟
+⢸⣿⠀⠘⣿⡇⠀⠀⠀⠀⠀⠀⠀⣠⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠉⠀
+⠸⣿⠀⠀⣿⡇⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠉⠀⠀⠀⠀
+⠀⠻⣷⣶⣿⣇⠀⠀⠀⢠⣼⣿⣿⣿⣿⣿⣿⣿⣛⣛⣻⠉⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢸⣿⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢸⣿⣀⣀⣀⣼⡿⢿⣿⣿⣿⣿⣿⡿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠙⠛⠛⠛⠋⠁⠀⠙⠻⠿⠟⠋⠑⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀*/
+
+
+/* estilos como llegar :u */
+.location-info {
+  background-color: #fdf8f0; 
+}
+
+.location-info .subheading {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #b0a08a;
+  letter-spacing: 1px;
+}
+
+.date-stamp {
+  position: absolute;
+  top: 40px;
+  right: -25px; /* Saca el elemento fuera del contenedor */
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 60px;
+  padding: 8px 0;
+  text-align: center;
+  line-height: 1.1;
+  font-weight: 700;
+  border-radius: 4px;
+  z-index: 10;
+}
+
+.date-stamp .day {
+  font-size: 1.6rem;
+  display: block;
+  color: #333;
+}
+
+.date-stamp .month {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.info-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.info-list li i {
+  font-size: 1.1rem;
+  color: #333;
+  margin-right: 12px;
+  width: 20px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.location-map {
+  position: relative;
+  min-height: 450px;
+}
+
+.map-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.map-pin-icon {
+  font-size: 3rem;
+  color: #ea4335; /* Rojo de Google Maps */
+  transform: translate(20%, -30%); /* Posición similar a la imagen */
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+/* --- ESTILOS DEL FOOTER --- */
+
+.footer-logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #fff;
+  object-fit: cover;
+}
+
+.footer-gallery .gallery-img-small {
+  object-fit: cover;
+  height: 120px; /* Altura fija para las pequeñas */
+}
+
+.footer-gallery .gallery-img-large {
+  object-fit: cover;
+  height: 250px; /* Altura total de las apiladas + gap */
+}
+
+/* Estilos para el input de suscripción */
+.subscribe-form .form-control {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #555;
+  padding-left: 0;
+}
+
+.subscribe-form .form-control:focus {
+  box-shadow: none;
+  border-color: #f0e6d2; /* Color beige */
+  background-color: transparent !important;
+}
+
+.subscribe-form .form-control::placeholder {
+  color: #888;
+}
+
+
+/* --- AJUSTES RESPONSIVE --- */
+@media (max-width: 991.98px) {
+  /* Mueve el sello de fecha en pantallas medianas */
+  .date-stamp {
+    right: 20px;
+    top: 20px;
+  }
+
+  .how-to-get-there h2 {
+    font-size: 2rem; /* Reduce el título en móvil */
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* Ajusta la galería en móviles */
+  .footer-gallery .gallery-img-small {
+    height: 150px;
+  }
+  .footer-gallery .gallery-img-large {
+    height: 310px;
+  }
 }
