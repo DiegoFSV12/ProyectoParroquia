@@ -1,15 +1,24 @@
+:host{display:block}
 
-div{
-    width: 100%;
-    height: 100%;
+.card{
+  border-radius:12px;
+  overflow:hidden;
 }
 
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.card img{
+  width:100%;
+  height:400px;
+  object-fit:cover;
 }
 
 .card-body{
-    height: 50px !important;
+  padding:1rem;
 }
+
+.card-title{margin-bottom:0.35rem}
+
+.card .btn{
+  margin-top:0.6rem;
+}
+
+.card p{color:rgba(255,255,255,0.85)}

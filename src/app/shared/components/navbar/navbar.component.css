@@ -1,12 +1,55 @@
 .navbar{
-    background-color: #0D0D0D !important;
-    
+  background: linear-gradient(90deg, rgba(12,12,12,0.95), rgba(4,6,16,0.98)) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
-a{
-    color: #fff !important;
+.navbar .navbar-brand{
+  display:flex;align-items:center;gap:0.6rem;color:var(--text);font-weight:700;
 }
 
-button{
-    background-color: #FFD2A4 !important;
+.navbar .nav-link{
+  color: rgba(229, 199, 199, 0.88) !important;
+  padding:0.45rem 0.6rem;
+  border-radius:8px;
+  transition: background .12s ease, transform .12s ease;
 }
+.navbar .nav-link:hover{background: rgba(255,255,255,0.03); transform: translateY(-2px);}
+
+.navbar .btn{
+  margin-left:0.5rem;
+}
+
+/* small responsive tweak for brand svg */
+.navbar svg{border-radius:8px;}
+
+/* Botón Contactanos personalizado */
+.btn-contact{
+  background: #FFD2A4;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.45rem 0.8rem;
+  border-radius: 8px;
+  font-weight:700;
+  box-shadow: 0 8px 20px rgba(255,210,164,0.12);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.btn-contact:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 14px 36px rgba(255,210,164,0.18);
+}
+.btn-contact:active{transform: translateY(-1px)}
+
+.btn-contact{
+  background: linear-gradient(90deg, #FFD2A4, #FFB66B);
+  color:#0b0b0b;
+  border-radius:8px;
+  padding:0.45rem 0.8rem;
+  box-shadow: 0 8px 20px rgba(255,170,90,0.12);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.btn-contact:hover{ transform: translateY(-3px); box-shadow: 0 14px 36px rgba(255,170,90,0.18); }
